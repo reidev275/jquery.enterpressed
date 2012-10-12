@@ -14,3 +14,6 @@ We can simply write the following javascript
     $("#input").enterPressed(function() {
         //do something
     });
+    
+Any code contained within the function will run when a user presses the enter key with their focus in the input.  
+This can be very useful in cases where pressing enter and clicking a button should both trigger the same action.
