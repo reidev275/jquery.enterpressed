@@ -1,22 +1,18 @@
-# jquery.enterpressed
+#About
+**jquery.enterpressed** is a plug-in that lets you focus on form behavior rather than which key the user presses.
 
-jquery extension that abstracts keyup keycode logic
 
-
-# Example
+## Example
 A working example can be found at http://jsfiddle.net/EnjB3/8/
 
-## HTML
+Given the following HTML
 
-`<input id="input" type="text" />`
+    <input id="input" type="text" />`
 
-## JavaScript
+We can simply write the following javascript
 
+    function submitted() {
+        alert('submitted');
+    }
 
-`function submitted() {`
-
-`    alert('submitted');`
-
-`}`
-
-`$("#input").enterPressed(submitted);`
+    $("#input").enterPressed(submitted);
