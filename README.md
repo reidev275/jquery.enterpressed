@@ -7,7 +7,7 @@ A working example can be found at http://jsfiddle.net/EnjB3/8/
 
 Given the following HTML
 
-    <input id="input" type="text" />`
+    <input id="input" type="text" />
 
 We can simply write the following javascript
 
