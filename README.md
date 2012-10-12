@@ -11,8 +11,6 @@ Given the following HTML
 
 We can simply write the following javascript
 
-    function submitted() {
-        alert('submitted');
-    }
-
-    $("#input").enterPressed(submitted);
+    $("#input").enterPressed(function() {
+        //do something
+    });
