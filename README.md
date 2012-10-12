@@ -7,15 +7,13 @@ jquery extension that abstracts keyup keycode logic
 
 ## HTML
 
-`<input id="input" type="text" /><button id="button">Submit</button>`
+`<input id="input" type="text" />`
 
 ## JavaScript
 
-`
-function submitted() {
-    alert('submitted');
-}
 
-$("#input").enterPressed(submitted);
-$("#button").click(submitted);
-`
+`function submitted() {`
+`    alert('submitted');`
+`}`
+
+`$("#input").enterPressed(submitted);`
