@@ -3,7 +3,7 @@
     q.test("Function executed if return key pressed", function() {
         var $input = $("#input"), 
             funcCalled = false, 
-            event = $.Event( "keyup", { keyCode: 13 });
+            event = $.Event( "keypress", { keyCode: 13 });
         
         $input.enterPressed(function() { funcCalled = true; });
         $input.trigger( event );
@@ -14,7 +14,7 @@
     q.test("Function not executed if return key not pressed", function() {
         var $input = $("#input"), 
             funcCalled = false, 
-            event = $.Event( "keyup", { keyCode: 12 });
+            event = $.Event( "keypress", { keyCode: 12 });
         
         $input.enterPressed(function() { funcCalled = true; });
         $input.trigger( event );
